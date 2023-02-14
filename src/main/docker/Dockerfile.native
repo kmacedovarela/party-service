@@ -1,0 +1,24 @@
+####
+# This Dockerfile is used in order to build a container that runs the Quarkus application in native (no JVM) mode.
+#
+# Before building the container image run:
+#
+# ./mvnw package -Pnative
+#
+# Then, build the image with:
+#
+# docker build -f src/main/docker/Dockerfile.native -t quarkus/party-demo .
+#
+# Then run the container using:
+#
+# docker run -i --rm -p 8080:8080 quarkus/party-demo
+#
+###
+# Build:
+# docker build -f src/main/docker/Dockerfile.kogito.native -t kvarela/decision-service .
+# Run
+# docker run -i --rm -p 8080:8080 kvarela/decision-service 
+FROM quay.io/kiegroup/kogito-runtime-native:latest
+COPY target/*-runner /home/kogito/bin/
+
+
