@@ -33,6 +33,11 @@
           <dmn:text>"KARINA"</dmn:text>
         </dmn:literalExpression>
       </dmn:row>
+      <dmn:row id="_CD94ED12-4515-4CE1-9340-CDB1E532C8C8">
+        <dmn:literalExpression id="_1DE54D9D-6D95-4622-941A-905074106FD5">
+          <dmn:text>"PORCELLI"</dmn:text>
+        </dmn:literalExpression>
+      </dmn:row>
     </dmn:relation>
   </dmn:decision>
   <dmn:decision id="_40923529-A52E-40F2-A0D7-0FC57394477E" name="marked as banned">
@@ -89,6 +94,7 @@
           <kie:ComponentWidths dmnElementRef="_A0FDDBA0-7B94-4430-81E7-B2A434D378D7"/>
           <kie:ComponentWidths dmnElementRef="_24886BF5-C39D-4FEE-BAF6-56F65442F400"/>
           <kie:ComponentWidths dmnElementRef="_7DB2A4D0-3F86-4608-A1DA-6D3517591F84"/>
+          <kie:ComponentWidths dmnElementRef="_1DE54D9D-6D95-4622-941A-905074106FD5"/>
           <kie:ComponentWidths dmnElementRef="_384C23DE-4CD1-4848-BA98-D0092B20D53D">
             <kie:width>695</kie:width>
           </kie:ComponentWidths>
